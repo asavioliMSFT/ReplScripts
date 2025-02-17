@@ -95,6 +95,6 @@ SELECT * INTO MS_SubscriberMetadata.dbo.MSsnapshotdeliveryprogress FROM dbo.MSsn
 Go
 
 --Change backup location if needed.
-Backup database MS_SubscriberMetadata to disk='c:\MS_SubscriberMetadata.bak'
+Backup database MS_SubscriberMetadata to disk='c:\MS_SubscriberMetadata.bak' WITH COMPRESSION
 Go
 

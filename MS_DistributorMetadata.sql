@@ -70,6 +70,6 @@ SELECT * INTO MSdistpublishers FROM msdb..MSdistpublishers WITH(NOLOCK)
 Go
  
 --Change backup location if needed.
-BACKUP DATABASE MS_DistBackup to disk='c:\MS_DistBackup.bak'
+BACKUP DATABASE MS_DistBackup to disk='c:\MS_DistBackup.bak' WITH COMPRESSION
 Go
 

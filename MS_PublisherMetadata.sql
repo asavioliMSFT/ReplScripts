@@ -107,7 +107,7 @@ SELECT * INTO MS_PublisherMetadata.dbo.MSpeer_conflictdetectionconfigrequest FRO
 Go
 
 --Change backup location if needed.
-BACKUP DATABASE MS_PublisherMetadata TO DISK='c:\MS_PublisherMetadata.bak'
+BACKUP DATABASE MS_PublisherMetadata TO DISK='c:\MS_PublisherMetadata.bak' WITH COMPRESSION
 GO
 
 
